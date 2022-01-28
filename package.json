@@ -1,5 +1,5 @@
 {
-  "name": "node.js-mailing",
+  "name": "user-manipulation",
   "main": "server.js",
   "version": "1.0.6",
   "private": true,
@@ -8,11 +8,11 @@
     "server": "nodemon server --prefix server",
     "client": "npm start --prefix client",
     "dev": "npm run server && npm run client",
-    "installationClient": "npm run reinstallation --prefix client",
-    "installationServer": "npm run reinstallation --prefix server",
+    "installationClient": "cd client && npm run reinstallation && cd ..",
+    "installationServer": "cd server && npm run reinstallation && cd ..",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "description": "Mailing app created by ITGalkowski",
+  "description": "User manipulation by ITGalkowski",
   "author": "Pawel Galkowski",
   "dependencies": {
     "concurrently": "^5.3.0"
@@ -20,13 +20,13 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rocksdevil/Node.JS-Mailling"
+    "url": "git+https://github.com/pawel-galkowski/user-manipulation"
   },
   "bugs": {
-    "url": "https://github.com/rocksdevil/Node.JS-Mailling/issues"
+    "url": "https://github.com/pawel-galkowski/user-manipulation/issues"
   },
-  "homepage": "https://github.com/rocksdevil/Node.JS-Mailling#readme"
+  "homepage": "https://github.com/pawel-galkowski/user-manipulation#readme"
 }
