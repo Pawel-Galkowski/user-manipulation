@@ -1,5 +1,5 @@
 {
-  "name": "node.js-mailling",
+  "name": "node.js-mailing",
   "main": "server.js",
   "version": "1.0.6",
   "private": true,
@@ -7,13 +7,12 @@
     "start": "node server.js --prefix server",
     "server": "nodemon server --prefix server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "installationClient": "npm run reinstalation --prefix client",
-    "installationServer": "npm run reinstalation --prefix server",
-    "installation": "concurrently \"npm run installationServer\" \"npm run installationClient\"",
+    "dev": "npm run server && npm run client",
+    "installationClient": "npm run reinstallation --prefix client",
+    "installationServer": "npm run reinstallation --prefix server",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "description": "Mailling app created by ITGalkowski",
+  "description": "Mailing app created by ITGalkowski",
   "author": "Pawel Galkowski",
   "dependencies": {
     "concurrently": "^5.3.0"

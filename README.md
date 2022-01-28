@@ -1,7 +1,6 @@
-﻿# Node.Js Mailling
+﻿# User Manipulation
 
-Application which are showing how you can use mailling in node.js.
-Front-end of appliacation is created in react-redux.
+Application to show how to manipulate with users information.
 
 ## Technology stack
     - Node.Js
@@ -13,12 +12,18 @@ Front-end of appliacation is created in react-redux.
     - SASS
 
 ## Installation
-To install appliaction you need to have a NPM(Node Package Manager). You can read about it on main NPM website.
+To install application you need to have a NPM(Node Package Manager). You can read about it on main NPM website.
 
 After all you need to type in manager
 
 ```GIT
-npm run installation
+npm run installationClient
+```
+
+next 
+
+```GIT
+npm run installationServer
 ```
 
 ## Usage

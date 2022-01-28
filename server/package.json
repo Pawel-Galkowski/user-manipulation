@@ -1,12 +1,12 @@
 {
-  "name": "server",
+  "name": "server-side",
   "main": "server.js",
   "version": "1.0.4",
   "private": true,
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server",
-    "reinstalation": "rm -rf node_modules/ && rm -rf package-lock.json && npm install"
+    "reinstallation": "rm -rf node_modules/ && rm -rf package-lock.json && npm install"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
